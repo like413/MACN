@@ -1,6 +1,5 @@
-# MACN
-Mixing Self-Attention and Convolution Network: A Uniﬁed Framework for Multisource Remote Sensing Data Classification
-## The code will be released in future!
+# Mixing Self-Attention and Convolution Network: A Uniﬁed Framework for Multisource Remote Sensing Data Classification
+The code will be released in future!
 ## Results
 All the results are cited from original paper. More details can be found in the paper.
 
