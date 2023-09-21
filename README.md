@@ -1,5 +1,8 @@
 # Mixing Self-Attention and Convolution Network: A Uniﬁed Framework for Multisource Remote Sensing Data Classification
-The code will be released in future!
+Python demos for the paper "Mixing Self-Attention and Convolution Network: A Uniﬁed Framework for Multisource Remote Sensing Data Classification".
+
+Using the code should cite the following paper:
+
 ## Results
 All the results are cited from original paper. More details can be found in the paper.
 
