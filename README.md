@@ -2,6 +2,32 @@
 Python demos for the paper "Mixing Self-Attention and Convolution Network: A Uniﬁed Framework for Multisource Remote Sensing Data Classification".
 
 Using the code should cite the following paper:
+K. Li, D. Wang, X. Wang, G. Liu, Z. Wu and Q. Wang, "Mixing Self-Attention and Convolution: A Unified Framework for Multisource Remote Sensing Data Classification," in IEEE Transactions on Geoscience and Remote Sensing, vol. 61, pp. 1-16, 2023, Art no. 5523216, doi: 10.1109/TGRS.2023.3310521.
+
+@ARTICLE{10236462,
+  author={Li, Ke and Wang, Di and Wang, Xu and Liu, Gang and Wu, Zili and Wang, Quan},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={Mixing Self-Attention and Convolution: A Unified Framework for Multisource Remote Sensing Data Classification}, 
+  year={2023},
+  volume={61},
+  number={},
+  pages={1-16},
+  doi={10.1109/TGRS.2023.3310521}}
+
+G. Zhao, Q. Ye, L. Sun, Z. Wu, C. Pan, and B. Jeon, "Joint Classification of Hyperspectral and LiDAR Data Using a Hierarchical CNN and Transformer", in IEEE Transactions on Geoscience and Remote Sensing, vol. 61, pp. 1-16, 2023, Art no. 5500716, doi: 10.1109/TGRS.2022.3232498.
+
+@ARTICLE{9999457, 
+author={Zhao, Guangrui and Ye, Qiaolin and Sun, Le and Wu, Zebin and Pan, Chengsheng and Jeon, Byeungwoo}, 
+journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+title={Joint Classification of Hyperspectral and LiDAR Data Using a Hierarchical CNN and Transformer}, 
+year={2023}, 
+volume={61}, 
+number={}, 
+pages={1-16}, 
+doi={10.1109/TGRS.2022.3232498} }
+
+## Description
+Convolution and self-attention are two powerful techniques for multisource remote sensing (RS) data fusion that have been widely adopted in Earth observation tasks. However, convolutional neural networks (CNNs) are inadequate for fully mining contextual information and representing the sequence attributes of spectral signatures. In addition, the specific self-attention mechanism often comes with high-computational costs, which hinders its application in the field of RS. To overcome the above limitations, this article proposes a unified framework called “mixing self-attention and convolution network (MACN)” for comprehensive feature extraction and efficient feature fusion. First, the proposed MACN utilizes two adaptive CNN encoders (ACEs) to extract shallow convolutional features from multisource RS data. Second, taking the complexity and varying scales of RS data into account, the proposed mixing self-attention and convolution Transformer (MACT) layer achieves local and global multiscale perception through an elegant integration of self-attention and convolution. MACT can extract abundant spatial and high-dimensional information (e.g., spectral and elevation information) while maintaining minimal computational overhead compared with pure convolution or self-attention counterparts. Finally, a multisource cross-guided fusion (MCGF) module is designed to achieve deep fusion of multisource RS data features. MCGF utilizes a carefully designed cross-modal attention mechanism to capture the interaction between multisource data and aggregate contextual information. Extensive tests on six public RS datasets have shown that our method outperforms other multisource fusion models, delivering state-of-the-art (SOTA) results on multiple RS data fusion tasks without specific tuning. 
 
 ## Results
 All the results are cited from original paper. More details can be found in the paper.
