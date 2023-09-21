@@ -20,7 +20,6 @@ def loadData():
     data_HSI = sio.loadmat('dataSets/Trento/HSI_Trento.mat')['hsi_trento']
     data_lidar = sio.loadmat('dataSets/Trento/Lidar1_Trento.mat')['lidar1_trento']
     labels = sio.loadmat('dataSets/Trento/GT_Trento.mat')['gt_trento']
-    # labels = sio.loadmat('dataSets/Trento/Trento_gt.mat')['gt']
 
     return data_HSI, data_lidar, labels
 
