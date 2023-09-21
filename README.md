@@ -2,6 +2,7 @@
 Python demos for the paper "Mixing Self-Attention and Convolution Network: A Uniﬁed Framework for Multisource Remote Sensing Data Classification".
 
 Using the code should cite the following paper:
+
 K. Li, D. Wang, X. Wang, G. Liu, Z. Wu and Q. Wang, "Mixing Self-Attention and Convolution: A Unified Framework for Multisource Remote Sensing Data Classification," in IEEE Transactions on Geoscience and Remote Sensing, vol. 61, pp. 1-16, 2023, Art no. 5523216, doi: 10.1109/TGRS.2023.3310521.
 
 @ARTICLE{10236462,
