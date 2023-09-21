@@ -6,7 +6,7 @@ Convolution and self-attention are two powerful techniques for multisource remot
 ### dataset utilization
 Please modify line 20-23 in trentoTrain.py for the dataset details.
 ### Training
-Train the HSI and LiDAR-based DSM
+Train the HSI and LiDAR-based DSM   
 python demo.py 
 
 ## Results
